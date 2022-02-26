@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 body {
-    background: #bac;
+    background: #abc;
 }
 h1 {
     text-align: center;
     padding: 1rem;
 }
+/* remove....
 p {
     border: 2px solid #cab;
     background: #def;
@@ -16,3 +17,33 @@ p {
     margin: 1rem;
     border-radius: 20px;
 }
+*/
+
+ 
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    border: 10px solid;
+    margin: 2rem;
+  }
+  
+  .box {
+    min-width: 150px;
+    height: 150px;
+    border: 3px solid;
+    background: #cba;
+    padding: 0rem;
+    font-size: 6rem;
+    line-height: 150px;
+    text-align: center;
+    color: #a98;
+    transition: all 0.5s;
+  }
+  
+  /* write rotate class here */
+  .rotate {
+      transform: rotate(360deg);
+      transition: all 1s;
+  }
