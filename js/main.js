@@ -27,11 +27,11 @@ function makeBoxes() {
     /* write event listener here */
 
     function turn(e) {
-        e.target.classList.add('rotate');
-        console.log(e);
+      e.target.classList.add('rotate');
+      console.log(e);
     }
     box.addEventListener("click", turn);
-    
+
     box.appendChild(txt);
     tempHolder.appendChild(box);
   } //end loop

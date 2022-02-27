@@ -1,38 +1,59 @@
 * {
-    box-sizing: border-box;
-}
-body {
-    background: #abc;
-}
-h1 {
-    text-align: center;
-    padding: 1rem;
+  box-sizing: border-box;
 }
 
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem;
-    border: 10px solid;
-    margin: 2rem;
-  }
-  
-  .box {
-    min-width: 150px;
-    height: 150px;
-    border: 3px solid;
-    background: #cba;
-    padding: 0rem;
-    font-size: 6rem;
-    line-height: 150px;
-    text-align: center;
-    color: #a98;
-    transition: all 0.5s;
-  }
-  
-  /* write rotate class here */
-  .rotate {
-      transform: rotate(360deg);
-      transition: all 1s;
-  }
+body {
+  background: #3d5a80;
+}
+
+.labtitle {
+  background-color: #98c1d9;
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  color: #293241;
+}
+
+.part {
+  background-color: #ee6c4d;
+  border-radius: 50%;
+  border: 2px solid #ee6c4d;
+  padding: .6rem;
+  text-align: center;
+  color: #293241;
+}
+
+.challenge {
+  background-color: #e0fbfc;
+  padding: 1rem;
+  color: #293241;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  border: 10px solid;
+  margin: 2rem;
+}
+
+.box {
+  min-width: 150px;
+  height: 150px;
+  border: 3px solid;
+  background: #cba;
+  padding: 0rem;
+  font-size: 6rem;
+  line-height: 150px;
+  text-align: center;
+  color: #a98;
+  transition: all 0.5s;
+}
+
+/* write rotate class here */
+.rotate {
+  transform: rotate(360deg);
+  transition: all 1s;
+}
